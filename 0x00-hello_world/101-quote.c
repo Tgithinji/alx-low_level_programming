@@ -5,10 +5,12 @@
  *
  * Description: Prints output to standard error
  *
- * Returns: Always 1 (Success)
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
-	fwrite("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 61, 1, stderr);
-	retun (1);
+	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	fwrite(str, sizeof(char), 59, stderr);
+	return (1);
 }
