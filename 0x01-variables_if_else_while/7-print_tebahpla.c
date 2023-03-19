@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Print out the alphabet but skip some letters
+ * Description: Print out the alphabet in lowercase in reverse
  *
  * Return: Always 0 (Success)
  */
@@ -12,12 +12,9 @@ int main(void)
 {
 	int i;
 
-	for (i = 97; i <= 122; i++)
+	for (i = 122; i >= 97; i--)
 	{
-		if (i == 101 || i == 113)
-			continue;
 		putchar(i);
 	}
 	putchar('\n');
-	return (0);
 }
