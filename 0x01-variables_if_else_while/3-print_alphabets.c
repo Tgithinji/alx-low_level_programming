@@ -11,12 +11,15 @@
 int main(void)
 {
 	int i;
+	int j;
 
+	/* loop to print out lowercase letters */
 	for (i = 97; i <= 122; i++)
 	{
 		putchar(i);
 	}
-	for (int j = 65; j <= 90; j++)
+	/* code to print out upper case letters */
+	for (j = 65; j <= 90; j++)
 	{
 		putchar(j);
 	}
