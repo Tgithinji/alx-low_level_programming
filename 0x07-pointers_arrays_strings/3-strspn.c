@@ -10,19 +10,23 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i, j;
+	unsigned int i, j, bytes;
 	char acc, str;
 
+	bytes = 0;
 	for (i = 0, str = *(s + i); str != '\0'; i++)
 	{
 		for (j = 0, acc = *(accept + j); acc != '\0'; j++)
 		{
 			if (acc == str)
+			{
+				bytes++;
 				break;
+			}
 		}
 		if (acc == '\0')
-			return (i);
+			break;
 
 	}
-	return (i);
+	return(bytes);
 }
