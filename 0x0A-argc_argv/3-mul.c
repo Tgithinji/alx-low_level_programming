@@ -35,11 +35,13 @@ int _atoi(char *s)
 {
 	int i, sign, num;
 
+	i = 0;
 	sign = 1;
 	num = 0;
 	if (*s == '-')
 	{
 		sign = -1;
+		i++;
 	}
 
 	for (; *(s + i) != '\0'; i++)
