@@ -18,10 +18,15 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	if (atoi(argv[1]) < 0)
+	if (!count_cents(atoi(argv[1])))
+	{
 		printf("0\n");
-	n = count_cents(atoi(argv[1]));
-	printf("%d\n", n);
+	}
+	else
+	{
+		n = count_cents(atoi(argv[1]));
+		printf("%d\n", n);
+	}
 	return (0);
 }
 
@@ -34,7 +39,7 @@ int main(int argc, char *argv[])
 
 int count_cents(int n)
 {
-	if (n == 0)
+	if (n <= 0)
 		return (0);
 	if (n >= 25)
 		return (1 + count_cents(n - 25));
