@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
+
+int _atoi(char *s);
 /**
  * main - multiples two numbers
  * @argc: argument count
@@ -18,8 +19,33 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		mult = atoi(argv[1]) * atoi(argv[2]);
+		mult = _atoi(argv[1]) * _atoi(argv[2]);
 		printf("%d\n", mult);
 		return (0);
 	}
+}
+
+/**
+ * _atoi - converts a string to an integer
+ * @s: string to be converted
+ *
+ * Return: integer
+ */
+int _atoi(char *s)
+{
+	int i, sign, num;
+
+	sign = 1;
+	num = 0;
+	if (*s == '-')
+	{
+		sign = -1;
+	}
+
+	for (; *(s + i) != '\0'; i++)
+	{
+		num = num * 10 + (*(s + i) - 48);
+	}
+	num *= sign;
+	return (num);
 }
