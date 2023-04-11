@@ -15,8 +15,8 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	
-	len = strlen(len);
+
+	len = strlen(str);
 	strcp = malloc((sizeof(char) * len) + 1);
 
 	if (strcp == NULL)
