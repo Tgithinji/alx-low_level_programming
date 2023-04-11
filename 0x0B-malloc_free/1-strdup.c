@@ -13,17 +13,21 @@ char *_strdup(char *str)
 	char *strcp;
 	int len, i;
 
-	len = strlen(str);
 	if (str == NULL)
 		return (NULL);
+	
+	len = strlen(len);
 	strcp = malloc((sizeof(char) * len) + 1);
+
 	if (strcp == NULL)
 	{
 		return (NULL);
 	}
+
 	for (i = 0; i < len; i++)
 	{
 		strcp[i] = str[i];
 	}
+
 	return (strcp);
 }
