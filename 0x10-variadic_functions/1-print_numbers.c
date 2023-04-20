@@ -20,7 +20,7 @@ void print_numbers(const char *seperator, unsigned int n, ...)
 		if (i + 1 == n)
 			break;
 		if (seperator != NULL)
-			printf("%s ", seperator);
+			printf("%s", seperator);
 		else
 			printf(" ");
 	}
