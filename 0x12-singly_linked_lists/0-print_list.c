@@ -11,10 +11,6 @@ size_t print_list(const list_t *h)
 {
 	size_t count;
 
-	/* check if h is NULL */ 
-	if (h == NULL)
-		return (-1);
-
 	/* loop through each node and print its content */
 	for (count = 0; h != NULL; count++)
 	{
