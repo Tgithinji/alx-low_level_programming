@@ -27,3 +27,8 @@ Write a function that adds new node at the end of a linked `listint_t` list.
 - Return: the address of the new element, or `NULL` if it failed
 - File: `3-add_nodeint_end.c`
 
+### 4.Free list
+
+Write a function that frees a `listint_t` list
+- Prototype: `void free_listint(listint_t *head);`
+- File: `4-free_listint.c`
