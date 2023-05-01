@@ -37,3 +37,8 @@ Write a function that frees a `listint_t` list
 Write a function that frees a `listint_t` list.
 - Prototype `void free_listint2(listint_t **head);`
 - File: `5-free_listint2.c`
+
+### 6.Pop
+
+Write a function that deletes the head node of a `listint_t` linked list and returns the head nodes data (n).
+- File: `6-pop_listint.c`
