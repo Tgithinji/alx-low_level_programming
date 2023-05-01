@@ -43,12 +43,17 @@ Write a function that frees a `listint_t` list.
 Write a function that deletes the head node of a `listint_t` linked list and returns the head nodes data (n).
 - File: `6-pop_listint.c`
 
-### 5.Get node at index
+### 7.Get node at index
 
 Write a function that returns the nth node of a `listint_t` linked list
-- File: `7-get_nodeint_at_index`
+- File: `7-get_nodeint.c`
 
-### 7.SUM list
+### 8.SUM list
 
 Write a function that returns the sum of all the data(n) of a `listint_t` linked list
-- File `7-sum_linstint`
+- File `8-sum_linstint`
+
+### 9.Insert
+
+Write a fuction that inserts a new node at a given position
+- File: `9-insert_nodeint.c`
