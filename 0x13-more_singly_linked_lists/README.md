@@ -1,7 +1,5 @@
 # 0x13. C - More singly linked lists
 
-## Task 0
-
 ### 0. Print list
 
 Write a function that prints all elements of a `listint_t` list.
@@ -11,6 +9,13 @@ Write a function that prints all elements of a `listint_t` list.
 
 ### 1.List length
 
-write a function that returns the number of elements in a linked `listint_t list`.
+write a function that returns the number of elements in a linked `listint_t` list.
 - Prototype: `size_t listint_len(const listint_t *h);`
 - file: `1-listint_len.c`
+
+### 2.Add node
+
+Write a function that adds a new node at the beginning of a `listint_t` list.
+- Prototype: `listint_t *add_nodeint(listint_t **head, const int n);`
+- Return: the address of anew element, or `NULL` if it failed.
+-File: `2-add_nodeint.c`
