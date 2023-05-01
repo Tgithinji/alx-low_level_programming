@@ -32,3 +32,8 @@ Write a function that adds new node at the end of a linked `listint_t` list.
 Write a function that frees a `listint_t` list
 - Prototype: `void free_listint(listint_t *head);`
 - File: `4-free_listint.c`
+
+### 5.free
+Write a function that frees a `listint_t` list.
+- Prototype `void free_listint2(listint_t **head);`
+- File: `5-free_listint2.c`
