@@ -48,4 +48,7 @@ Write a function that deletes the head node of a `listint_t` linked list and ret
 Write a function that returns the nth node of a `listint_t` linked list
 - File: `7-get_nodeint_at_index`
 
+### 7.SUM list
 
+Write a function that returns the sum of all the data(n) of a `listint_t` linked list
+- File `7-sum_linstint`
