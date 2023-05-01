@@ -42,3 +42,10 @@ Write a function that frees a `listint_t` list.
 
 Write a function that deletes the head node of a `listint_t` linked list and returns the head nodes data (n).
 - File: `6-pop_listint.c`
+
+### 5.Get node at index
+
+Write a function that returns the nth node of a `listint_t` linked list
+- File: `7-get_nodeint_at_index`
+
+
