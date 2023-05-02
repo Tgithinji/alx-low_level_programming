@@ -6,9 +6,9 @@
  *
  * Return: a ponter to the first node of reversed lit
  */
-iststint_t *reverse_listint(listint **head)
+listint_t *reverse_listint(listint_t **head)
 {
-`	listint_t *current;
+	listint_t *current;
 	listint_t *current2;
 
 	if (*head == NULL)
