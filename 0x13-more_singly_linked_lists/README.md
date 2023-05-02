@@ -62,3 +62,8 @@ Write a fuction that inserts a new node at a given position
 
 Write a function that deletes the node at index `index` of a `listint_t` linked list
 - File: `10-delete_nodeint.c`
+
+### 11.Reverse list
+
+Write a function that reverses a `listint_t` linked list
+- File: `100-reverse_listint.c`
