@@ -30,7 +30,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		free(current);
 		current = NULL;
 	}
-	else
+	else if (index > 0)
 	{
 		/* loop until current points to the indexed node */
 		for (i = index; i != 0; i--)
@@ -43,6 +43,10 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		/* delete the current indexed node */
 		free(current);
 		current = NULL;
+	}
+	else
+	{
+		return (-1);
 	}
 	return (1);
 }
