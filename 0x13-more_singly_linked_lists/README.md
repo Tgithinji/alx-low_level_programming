@@ -57,3 +57,8 @@ Write a function that returns the sum of all the data(n) of a `listint_t` linked
 
 Write a fuction that inserts a new node at a given position
 - File: `9-insert_nodeint.c`
+
+### 10.Delete at index
+
+Write a function that deletes the node at index `index` of a `listint_t` linked list
+- File: `10-delete_nodeint.c`
