@@ -7,21 +7,16 @@
  */
 void print_binary(unsigned long int n)
 {
-	int i, num;
+	if (n == 0)
+		_putchar('0');
 
-	for (i = 32; i >= 0; i--)
+	while (n)
 	{
-		/* shift all bits rightwards to right most end */
-		num = n >> i;
-
-		/* check is num was 0 or 1 */
-		if (num & 1)
-		{
+		if (n & 1)
 			_putchar('1');
-		}
 		else
-		{
 			_putchar('0');
-		}
+		/* right shift by one */
+		n = n >> 1;
 	}
 }
