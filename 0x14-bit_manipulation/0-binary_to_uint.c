@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * binary_t0_uint: Function that converts a binary number to unsigned int
+ * binary_to_uint - Function that converts a binary number to unsigned int
  * @b: points to a string og '0' ang '1'
  *
  * Return: the converted number or 0
