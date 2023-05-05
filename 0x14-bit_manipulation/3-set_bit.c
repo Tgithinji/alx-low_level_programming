@@ -10,7 +10,8 @@
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	if (n == NULL)
+	/* check if index is out of range */
+	if (index >= sizeof(unsigned long int) * 8)
 		return (-1);
 
 	/* left shift 1 index times and perform OR operator with n */
