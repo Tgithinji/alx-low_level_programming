@@ -8,6 +8,7 @@
  */
 int main(void)
 {
+    int nb;
     unsigned long int n;
 
     n = 1024;
@@ -19,5 +20,8 @@ int main(void)
     n = 98;
     clear_bit(&n, 1);
     printf("%lu\n", n);
+    n = 2048;
+    nb = clear_bit(&n, 1048);
+    printf("nb:%lu\nret:%d\n", n, nb);
     return (0);
 }
