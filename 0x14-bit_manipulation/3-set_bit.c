@@ -6,7 +6,7 @@
  * @n: the number whose bit is to be set
  * @index: the index at which 1 is to be set
  *
- * Result: 1 (success). -1 (failed)
+ * Return: 1 (success). -1 (failed)
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
