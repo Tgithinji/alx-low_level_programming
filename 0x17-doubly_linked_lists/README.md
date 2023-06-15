@@ -14,3 +14,7 @@ Write a function that adds a new node at the end of double list
 ## Task 4
 Write a function that frees a double linked list
 - Filename: `4-free_dlistint_t.c`
+## Task 5
+Write a function that returns the nth node of a doubly linked list
+- Filename: `5-get_dnodeint.c`
+
