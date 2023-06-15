@@ -20,4 +20,8 @@ Write a function that returns the nth node of a doubly linked list
 ## Task 6
 Write a function that returns the sum of all the data (n) of a doubly linked list
 - Filename: `6-sum_dlistint.c`
+## Task 7
+Write a function that inserts a new node at a given position.
+- Filename: `7-insert_dnodeint.c`
+
 
