@@ -11,3 +11,6 @@ Write a function that adds a new node at the beginning of a doubly linked list.
 ## Task 3
 Write a function that adds a new node at the end of double list
 - Filename: `3-add_dnodeint.c`
+## Task 4
+Write a function that frees a double linked list
+- Filename: `4-free_dlistint_t.c`
