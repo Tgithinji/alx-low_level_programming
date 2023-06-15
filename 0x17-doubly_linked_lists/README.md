@@ -17,4 +17,7 @@ Write a function that frees a double linked list
 ## Task 5
 Write a function that returns the nth node of a doubly linked list
 - Filename: `5-get_dnodeint.c`
+## Task 6
+Write a function that returns the sum of all the data (n) of a doubly linked list
+- Filename: `6-sum_dlistint.c`
 
