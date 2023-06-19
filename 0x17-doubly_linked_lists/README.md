@@ -23,5 +23,7 @@ Write a function that returns the sum of all the data (n) of a doubly linked lis
 ## Task 7
 Write a function that inserts a new node at a given position.
 - Filename: `7-insert_dnodeint.c`
-
+## Task 8
+Write a function that deletes the node at index of a doubly linked list.
+- Filename: `8-delete_dnodeint.c`
 
