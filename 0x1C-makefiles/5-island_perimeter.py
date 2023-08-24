@@ -21,7 +21,7 @@ def island_perimeter(grid):
                 width += 1
 
                 # check if left side is 1/land and not in the edge
-                # if so subtract 1 from height to avoid double counting that side
+                # if so subtract 1 from height to avoid double countin
                 # do the same for the top side
                 if grid[row - 1][col] == 1 and row > 0:
                     width -= 1
